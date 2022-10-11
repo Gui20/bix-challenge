@@ -9,5 +9,6 @@ O desafio consiste em reunir as informações de 3 fontes de dados distintas em 
 
 1) A sequência de tarefas escolhida por mim está representada na figura abaixo. 
 ![Screenshot from 2022-10-11 15-39-41](https://user-images.githubusercontent.com/42456578/195173100-9cc8c2e7-21ee-451e-b4cd-2211add391b6.png)
+
 Foi observado que aa API era responsável por retornar as informações sobre os funcionários e o _parquet.file_ foi responsável por retornar os nomes das categorias. Ambas as fontes de dados assossiavam o ID do PostgreSQL ao nome  do funcionário ou categoria. Com isso, eu concentrei todas as informações na _task_ "_transform_load_". É lá que acontece a junção das 3 fontes de informação.
 
