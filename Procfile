@@ -1,0 +1,1 @@
+web: gunicorn vendas_dashboard:server
