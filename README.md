@@ -39,14 +39,4 @@ E com isso um usuário já consegue executar Queries com o resultado final, abai
 
 E pra exemplificar de uma maneira visual a solução deste desafio eu desenvolvi um dashboard utilizando Dash, Python, Plotly. Foi construindo um Data WareHouse simplificado no PostgreSQL da solução para criação deste dashboard, e depois realizei o deploy na Plataforma Cloud **Heroku**. Este dashboard pode ser acessado neste link: https://bix-challenge.herokuapp.com/
 
-Vale resaltar também que o Banco de Dados da solução deste desafio foi hospedado na AWS RDS para ser acessado por vocês avaliadores, as credenciais de acesso são:
 
-Host: bix-solution.c3ksuxpujoxa.sa-east-1.rds.amazonaws.com
-
-Username: guilherme
-
-password: |?7LXmg+FWL&,2( 
-
-Port: 5432
-
-obs: (mesma senha do desafio)
